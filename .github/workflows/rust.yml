@@ -4,8 +4,7 @@ on:
   push:
     branches: ['main', '0.8.x']
   pull_request:
-  schedule:
-    - cron: "21 3 * * 5"
+
 
 jobs:
   test-freebsd:
